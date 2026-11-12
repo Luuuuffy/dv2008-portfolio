@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rethinking Warranty Management Through Apple Wallet — DV2008</title>
+  <meta name="description" content="An individual UI/UX case study: proposing warranty passes in Apple Wallet, designing a clearer claim journey, and testing where people expect to find filters.">
+  <meta property="og:title" content="Rethinking Warranty Management Through Apple Wallet">
+  <meta property="og:description" content="A DV2008 UI/UX case study about familiar behaviours, clearer claims and a better home for filters.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to case study</a>
+  <header class="site-header">
+    <a class="case-brand" href="#top" aria-label="Apple Wallet Warranty case study, back to top">
+      <img class="case-brand-icon" src="assets/branding/apple-wallet-logo.png.png" width="300" height="300" alt="">
+      <span class="case-brand-copy"><span class="case-brand-title">Apple Wallet Warranty</span><span class="case-brand-label">UI/UX Case Study</span></span>
+    </a>
+    <nav aria-label="Case study navigation">
+      <a href="#problem">The Problem</a>
+      <a href="#idea">The Idea</a>
+      <a href="#design">My Design</a>
+      <a href="#concept">The Outcome</a>
+    </nav>
+    <a class="header-link" href="https://www.figma.com/design/P7txGxKunH7x94yMa3DoM2/Dv2008-Assignment-3-ver-2?node-id=76-1547" target="_blank" rel="noopener noreferrer">View Prototype <span aria-hidden="true">↗</span><span class="sr-only"> (Figma, opens in a new tab)</span></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap hero-showcase" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="blue-dot" aria-hidden="true"></span> UI/UX case study · DV2008 Interface Design</p>
+        <h1 id="hero-title">Warranties,<br> without the hassle.</h1>
+        <p class="hero-deck">Rethinking warranty management through Apple Wallet.</p>
+        <p class="hero-description">An individual case study of a team project exploring warranty management through a familiar experience.</p>
+        <p class="hero-role"><span class="meta-label">MY ROLE</span><span class="role-keywords">UX Research · Product Ideation · Interaction Design · UI Prototyping · Usability Testing</span></p>
+        <a class="button" href="#problem">Explore the case study. <span aria-hidden="true">↘</span></a>
+      </div>
+      <figure class="hero-composition" aria-label="Warranty pass and claim progress from the Figma prototype">
+        <a class="screen-link hero-pass" href="assets/final-design/Warranty%20Pass.png" target="_blank" rel="noopener" aria-label="Open warranty pass screenshot at full size in a new tab"><img src="assets/final-design/Warranty%20Pass.png" width="402" height="874" alt="Team prototype warranty pass for Sony headphones, with coverage, expiry date, claim and proof-of-purchase actions" fetchpriority="high"></a>
+        <a class="screen-link hero-progress" href="assets/claim-process/Progress%20Screen%20-%20Ready%20for%20collection.png" target="_blank" rel="noopener" aria-label="Open claim progress screenshot at full size in a new tab"><img src="assets/claim-process/Progress%20Screen%20-%20Ready%20for%20collection.png" width="402" height="874" alt="My claim progress design showing the repair timeline, ready-for-collection status, directions and service-centre contact actions"></a>
+        <figcaption class="sr-only">Original Figma screens: the team’s warranty pass and my claim progress interface. Each image opens at full size.</figcaption>
+      </figure>
+    </section>
+
+    <div class="project-meta wrap">
+      <div class="key-contributions">
+        <span class="meta-label">Key Contributions</span>
+        <p>I proposed the Apple Wallet warranty concept and designed the claim progress screens and associated action and confirmation popups. I contributed to qualitative user research and helped facilitate usability testing through task assignment, observation and feedback analysis.</p>
+        <p class="contribution-scope">I also recommended moving tag-based filtering into the sorting/filtering interface before usability testing; the subsequent findings supported my suggestion.</p>
+      </div>
+      <div><span class="meta-label">The project</span><p>Group university project<br> Individual design perspective</p></div>
+      <div><span class="meta-label">The output</span><p>Interactive Figma prototype<br> Proposed Apple Wallet experience</p></div>
+    </div>
+
+    <section class="contribution-strip wrap" aria-labelledby="contributions-title">
+      <h2 id="contributions-title">Where I made a difference.</h2>
+      <a href="#idea"><span>01 / CONCEPT</span><strong>I proposed the Apple Wallet concept.</strong><span class="text-link">Build on a familiar behaviour ↗</span></a>
+      <a href="#design"><span>02 / INTERACTION</span><strong>I designed the claim progress screens.</strong><span class="text-link">Make the next step clear ↗</span></a>
+      <a href="#iteration"><span>03 / REFINEMENT</span><strong>I questioned where filters live.</strong><span class="text-link">A pre-test idea, supported by testing ↗</span></a>
+    </section>
+
+    <section class="section wrap" id="problem" aria-labelledby="problem-title">
+      <div class="section-heading"><p class="eyebrow">01 / The problem</p><h2 id="problem-title">Useful when you need it.<br> Easy to forget until then.</h2></div>
+      <div class="editorial-grid"><p class="lead">A warranty is a safety net.<br> Managing it can feel like another job.</p><div><p>Our team explored how young adults aged approximately 18–25 manage warranties. Receipts go missing, expiry dates slip by, and the steps involved in making a warranty claim can feel unclear.</p><p>But the friction started earlier: many participants rarely made warranty claims, so maintaining a separate tracking routine did not feel worth the effort.</p></div></div>
+      <div class="challenge"><span class="meta-label">The design challenge</span><p>How might we help young adults manage warranties and make claims <em>without asking them to build another time-consuming habit?</em></p></div>
+    </section>
+
+    <section class="research-band" id="research" aria-labelledby="research-title"><div class="wrap section">
+      <div class="section-heading"><p class="eyebrow">02 / Research</p><h2 id="research-title">The friction wasn’t just<br> a missing receipt.</h2><p>Team research · 43 survey responses · 6 qualitative interviews</p></div>
+      <div class="stats"><div><strong>62.8<span>%</span></strong><h3>did not track warranties</h3><p>27 of 43 respondents</p></div><div><strong>53.5<span>%</span></strong><h3>reported forgetting expiry dates</h3><p>23 of 43 respondents</p></div><div><strong>51.2<span>%</span></strong><h3>found management time-consuming</h3><p>22 of 43 respondents</p></div></div>
+      <p class="source-note">Exploratory research for a student project, not a representative population sample. Some survey questions allowed respondents to select more than one answer, so these groups may overlap.</p>
+      <div class="editorial-grid research-insight"><div><p class="eyebrow blue">My contribution / Qualitative research</p><h3 class="medium-heading">Knowing a warranty matters<br> doesn’t make tracking it a habit.</h3></div><div><p>I contributed to the team’s qualitative user research to understand warranty-tracking habits, user frustrations and claim experiences. Across our research, I became interested in the gap between the protection warranties offer and the effort people were willing to spend managing them.</p><p>Five of six interviewees did not actively track warranties. This led me to question whether a standalone app would simply add more work.</p></div></div>
+      <details class="evidence"><summary>View the original survey evidence <span aria-hidden="true">+</span></summary><div class="evidence-images"><figure><a href="assets/research/Screenshot%202026-11-12%20233224.png" target="_blank" rel="noopener" aria-label="Open the warranty-tracking methods survey chart at full size in a new tab"><img src="assets/research/Screenshot%202026-11-12%20233224.png" width="1453" height="625" loading="lazy" alt="Team survey chart: 27 of 43 respondents selected not tracking warranties"></a><figcaption>Current warranty-tracking methods · team research</figcaption></figure><figure><a href="assets/research/Screenshot%202026-11-12%20233230.png" target="_blank" rel="noopener" aria-label="Open the warranty-management challenges survey chart at full size in a new tab"><img src="assets/research/Screenshot%202026-11-12%20233230.png" width="1428" height="629" loading="lazy" alt="Team survey chart of warranty challenges, including losing receipts, forgetting expiry dates and time-consuming management"></a><figcaption>Challenges with warranty management · team research</figcaption></figure></div></details>
+    </div></section>
+
+    <section class="section wrap" id="idea" aria-labelledby="idea-title">
+      <div class="section-heading"><p class="eyebrow">03 / The idea</p><h2 id="idea-title">What if we didn’t need<br> another app?</h2></div>
+      <div class="editorial-grid"><div><p class="eyebrow blue">My idea / Selected by the team</p><p class="lead">I already used Apple Wallet for tickets and passes.<br> Why not warranties?</p></div><div><p>I proposed the Apple Wallet warranty pass concept based on my own everyday use. A familiar pass could make information easier to retrieve without asking people to manage another app.</p><p>The team compared four directions before choosing this one. The proposal was for merchants to issue passes containing product information, coverage, expiry dates and proof of purchase.</p></div></div>
+      <div class="concepts" aria-label="Four concepts evaluated by the team">
+        <article><span class="concept-number">01</span><h3>A dedicated app</h3><p>One place to manage warranty information.</p><p class="tradeoff">But another download, another interface and more manual entry.</p></article>
+        <article><span class="concept-number">02</span><h3>Shopee integration</h3><p>Close to the purchase experience.</p><p class="tradeoff">But limited to one platform, excluding other vendors and physical purchases.</p></article>
+        <article><span class="concept-number">03</span><h3>Gmail receipt tracking</h3><p>Could collect emailed receipts passively.</p><p class="tradeoff">But privacy concerns and inconsistent receipt formats complicate the idea.</p></article>
+        <article class="selected-concept"><span class="concept-number">04 <span class="selection-badge"><span aria-hidden="true">✓</span> SELECTED CONCEPT</span></span><h3>Apple Wallet passes</h3><p class="proposal-credit">My proposal · Selected by the team</p><p>A familiar place for quick retrieval.</p><p class="tradeoff">A proposed warranty management experience based on Apple Wallet.</p></article>
+      </div>
+      <p class="concept-boundary source-note">The selected concept still depends on merchant participation and platform feasibility. Its initial focus on Apple Wallet also limits access for people using other platforms.</p>
+      <div class="decision"><span class="meta-label">The design principle</span><p>Extend a familiar behaviour.<br> Don’t introduce another chore.</p></div>
+    </section>
+
+    <section class="design-band" id="design" aria-labelledby="design-title"><div class="wrap section">
+      <div class="section-heading"><p class="eyebrow">04 / My design work</p><h2 id="design-title">A claim should have<br> a clear next step.</h2><p>I designed the warranty claim progress screens and associated confirmation and action popups. My focus: what’s happening, what’s next, and when the user needs to act.</p></div>
+      <div class="claim-intro"><span class="pill">My interaction design</span><p>I used a claim progress timeline to show the stages of the journey, a status card to explain the current stage, and relevant actions to help users take the next step.</p></div>
+      <div class="design-featured-heading"><h3>From submitted to completed</h3></div>
+      <div class="design-featured-screens" aria-label="Key claim states: submitted, action needed and completed">
+        <figure><div class="state-label"><span>01</span> Submitted</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Submitted.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Submitted.png" width="402" height="874" loading="lazy" alt="Claim submitted screen with the submission stage highlighted; open the full-size image in a new tab"></a><figcaption><strong>Acknowledge the request.</strong>Confirm submission and show where the journey begins.</figcaption></figure>
+        <figure><div class="state-label"><span>02</span> Reviewed · Action needed</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Under%20review.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Under%20review.png" width="402" height="874" loading="lazy" alt="Reviewed claim asks the user to bring the item for repair, with directions and contact actions; open the full-size image in a new tab"></a><figcaption><strong>Turn status into an instruction.</strong>Explain when to bring the item in for repair and provide directions to the service centre.</figcaption></figure>
+        <figure><div class="state-label"><span>05</span> Completed</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Completed.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Completed.png" width="402" height="874" loading="lazy" alt="Claim completed screen with a completed timeline and a button to return to the warranty page; open the full-size image in a new tab"></a><figcaption><strong>Give the journey a clear ending.</strong>Confirm completion and offer a way back to the warranty.</figcaption></figure>
+      </div>
+      <details class="design-all-states">
+        <summary>Explore all five claim progress states</summary>
+      <div class="gallery-heading"><h3>Full claim progress sequence</h3><p>Explore all five states <span aria-hidden="true">→</span></p><div class="gallery-controls" hidden><button type="button" data-scroll="-1" aria-label="Previous claim screen">←</button><button type="button" data-scroll="1" aria-label="Next claim screen">→</button></div></div>
+      <div class="claim-gallery" tabindex="0" role="region" aria-label="All five claim progress screens">
+        <figure><div class="state-label"><span>01</span> Submitted</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Submitted.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Submitted.png" width="402" height="874" loading="lazy" alt="Claim submitted screen with the submission stage highlighted; open the full-size image in a new tab"></a><figcaption><strong>Acknowledge the request.</strong>Confirm submission and show where the journey begins.</figcaption></figure>
+        <figure><div class="state-label"><span>02</span> Reviewed · Action needed</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Under%20review.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Under%20review.png" width="402" height="874" loading="lazy" alt="Reviewed claim asks the user to bring the item for repair, with directions and contact actions; open the full-size image in a new tab"></a><figcaption><strong>Turn status into an instruction.</strong>Explain when to bring the item in for repair and provide directions to the service centre.</figcaption></figure>
+        <figure><div class="state-label"><span>03</span> Repair in progress</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Repair%20in%20progress.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Repair%20in%20progress.png" width="402" height="874" loading="lazy" alt="Repair in progress screen with completed timeline stages and a service-centre contact option; open the full-size image in a new tab"></a><figcaption><strong>Make waiting understandable.</strong>Show the current repair stage and keep contact within reach.</figcaption></figure>
+        <figure><div class="state-label"><span>04</span> Ready for collection</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Ready%20for%20collection.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Ready%20for%20collection.png" width="402" height="874" loading="lazy" alt="Ready for collection screen showing action needed and service-centre directions; open the full-size image in a new tab"></a><figcaption><strong>Bring the next action forward.</strong>Show when the item is ready for collection, alongside the location and contact options.</figcaption></figure>
+        <figure><div class="state-label"><span>05</span> Completed</div><a class="screen-link" href="assets/claim-process/Progress%20Screen%20-%20Completed.png" target="_blank" rel="noopener"><img src="assets/claim-process/Progress%20Screen%20-%20Completed.png" width="402" height="874" loading="lazy" alt="Claim completed screen with a completed timeline and a button to return to the warranty page; open the full-size image in a new tab"></a><figcaption><strong>Give the journey a clear ending.</strong>Confirm completion and offer a way back to the warranty.</figcaption></figure>
+      </div>
+      <p class="source-note">Original prototype screens. Open any claim progress screen to inspect it at full size. Claim details are sample content.</p>
+      </details>
+      <div class="popup-heading"><p class="eyebrow blue">The smaller moments matter, too</p><h3 class="medium-heading">Confirm the important actions.<br> Keep practical help close.</h3></div>
+      <div class="popup-grid">
+        <figure><div class="popup-image"><img src="assets/claim-process/Popup%20-%20Submit.png" width="396" height="380" loading="lazy" alt="Submit claim confirmation with Submit claim and Review again options"></div><figcaption><strong>A pause before submitting</strong>A chance to review the details before committing.</figcaption></figure>
+        <figure><div class="popup-image"><img src="assets/claim-process/Popup%20-%20Cancel.png" width="396" height="358" loading="lazy" alt="Cancel claim confirmation explaining that cancellation cannot be undone, with Keep claim and Cancel claim options"></div><figcaption><strong>An explicit cancellation</strong>Explain the consequence and offer the option to keep the claim.</figcaption></figure>
+        <figure><div class="popup-image"><img src="assets/claim-process/Popup%20-%20Direction.png" width="386" height="360" loading="lazy" alt="Directions sheet offering Apple Maps, Google Maps and Waze"></div><figcaption><strong>A familiar way to get there</strong>Let users choose their preferred map app in the proposed flow.</figcaption></figure>
+        <figure><div class="popup-image"><img src="assets/claim-process/Popup%20-%20Message%20service.png" width="386" height="278" loading="lazy" alt="Service-centre contact sheet offering WhatsApp and email, with sample contact details"></div><figcaption><strong>Help in context</strong>Bring service-centre contact options into the claim journey.</figcaption></figure>
+      </div>
+    </div></section>
+
+    <section class="section wrap" id="testing" aria-labelledby="testing-title">
+      <div class="section-heading"><p class="eyebrow">05 / Usability testing</p><h2 id="testing-title">Completion is only<br> part of the story.</h2></div>
+      <div class="editorial-grid"><div class="participant-count"><strong>4</strong><span>participants<br> in the team’s prototype test</span></div><div><p>I helped facilitate usability testing by assigning tasks, observing participants, collecting feedback and analysing the results.</p><p>All four participants completed the claim-submission task. Although participants could find warranty coverage information, testing revealed discoverability issues with the chatbot and tag-based filtering.</p></div></div>
+      <div class="findings"><div class="finding-head"><span>The task</span><span>What we observed</span></div><div><h3><span>01</span> Submit a warranty claim for Sony headphones</h3><p>All four completed the claim-submission task in the prototype.</p></div><div><h3><span>02</span> Find coverage terms</h3><p>Participants successfully located the coverage information on the warranty pass. However, most did not independently discover the chatbot’s coverage-checking function.</p></div><div><h3><span>03</span> Show only electronics warranties</h3><p>Most participants looked for tag-based filtering under the sorting control rather than in the search bar.</p></div><div><h3><span>04</span> Find proof of purchase</h3><p>All four completed receipt retrieval.</p></div></div>
+      <p class="source-note">These findings concern prototype usability. They do not establish real-world claim success, processing speed or integration feasibility.</p>
+    </section>
+
+    <section class="iteration-band" id="iteration" aria-labelledby="iteration-title"><div class="wrap section">
+      <div class="section-heading"><p class="eyebrow">06 / The refinement</p><h2 id="iteration-title">The right feature.<br> <span class="blue">The wrong place.</span></h2><p>The team moved tag-based filtering from search to the sorting control,<br> where most participants had initially looked for it.</p></div>
+      <ol class="reasoning"><li><span>BEFORE THE TEST</span><h3>I questioned the placement.</h3><p>I suggested moving tag-based filtering from the search interface to the sorting/filtering interface before usability testing.</p></li><li><span>DURING THE TEST</span><h3>Behaviour supported the idea.</h3><p>Most participants went to sorting first to find tags. Some needed prompting.</p></li><li><span>AFTER THE TEST</span><h3>The team moved the control.</h3><p>Tag-based filtering was placed under the Sort By control. The revised placement needs further usability testing.</p></li></ol>
+      <div class="comparison">
+        <figure><figcaption><span class="comparison-label">Before</span><h3>Tags hidden in search</h3><p>Tag-based filtering was located inside the search interface, making it difficult to discover.</p></figcaption><a class="screen-link comparison-before" href="assets/usability-testing/Search.png" target="_blank" rel="noopener"><img src="assets/usability-testing/Search.png" width="402" height="874" loading="lazy" alt="Before: search interface showing recent searches, a Sort by Tags control and keyboard; open the full-size image in a new tab"></a></figure>
+        <figure class="after"><figcaption><span class="comparison-label">After</span><h3>Tags moved to the sorting menu</h3><p>Tag-based filtering was moved alongside other sorting options, matching where participants naturally looked for it.</p></figcaption><a class="screen-link comparison-after" href="assets/usability-testing/Menu.png" target="_blank" rel="noopener"><img src="assets/usability-testing/Menu.png" width="402" height="874" loading="lazy" alt="After: sorting menu with Tags as the first option above Expiry date, Date of purchase and Price; open the full-size image in a new tab"></a></figure>
+      </div>
+      <div class="iteration-lesson"><span class="meta-label">DESIGN TAKEAWAY</span><p>A feature is only useful if users know where to find it.</p><p class="comparison-takeaway-support">I proposed this change before usability testing, and participants’ behaviour subsequently supported the decision.</p></div>
+      <p class="source-note">The team also clarified the chatbot icon, made coverage details more prominent and refined other interface details following feedback. The comparison above focuses on my pre-test filtering recommendation.</p>
+    </div></section>
+
+    <section class="section wrap" id="concept" aria-labelledby="concept-title">
+      <div class="section-heading"><p class="eyebrow">07 / The final concept</p><h2 id="concept-title">Capture. Retrieve. Claim.</h2><p>One proposed journey, built around information being there when it matters.</p></div>
+      <div class="final-layout"><figure><a class="screen-link" href="assets/final-design/Warranty%20Screen.png" target="_blank" rel="noopener"><img src="assets/final-design/Warranty%20Screen.png" width="402" height="874" loading="lazy" alt="Team prototype warranty listing with product cards and category tags; open the full-size image in a new tab"></a><figcaption>Warranty overview · team prototype</figcaption></figure><div class="final-copy"><div><span>01</span><h3>Capture without the extra routine.</h3><p>Merchant-issued passes could add warranty details after purchase. This remains a proposed integration.</p></div><div><span>02</span><h3>Retrieve what matters.</h3><p>The team designed browsing, search, tag-based filtering, coverage viewing and receipt access, alongside concepts for expiry reminders and an AI warranty assistant.</p></div><div><span>03</span><h3>Know what comes next.</h3><p>My claim progress screens and associated popups connect status updates with guidance for repair and collection.</p></div><aside class="prototype-note"><h3>A concept, with boundaries.</h3><p>The output is an interactive Figma prototype. Some functional implementation was reported, but its exact scope is unconfirmed. Merchant issuance, reminders, AI and service integrations are proposed—not verified live capabilities.</p></aside><a class="text-link prototype-link" href="https://www.figma.com/design/P7txGxKunH7x94yMa3DoM2/Dv2008-Assignment-3-ver-2?node-id=76-1547" target="_blank" rel="noopener noreferrer">Explore the Figma design and prototype ↗<span class="sr-only"> (opens in a new tab)</span></a></div></div>
+    </section>
+
+    <section class="reflection-band" id="reflection" aria-labelledby="reflection-title"><div class="wrap section">
+      <p class="eyebrow">08 / Reflection</p><h2 id="reflection-title">Good design can reduce work.<br> <span>It doesn’t always need to add features.</span></h2>
+      <div class="reflection-columns"><div><h3>What challenged me</h3><p>Ideation was the hardest part. Our first options were plausible, but creating another app did not necessarily answer the needs of people who already wanted to spend less time on warranties.</p></div><div><h3>What I’m taking forward</h3><p>Proposing the Apple Wallet concept taught me to look at existing behaviours. Designing claim progress screens taught me to make feedback and next steps explicit. Testing reminded me that my understanding of a control is not the user’s.</p></div><div><h3>What I would explore next</h3><p>With more time, I would explore repair collection and delivery, support for Google Wallet and other platforms, and a smoother end-to-end warranty claim flow. These ideas would need broader usability testing and feasibility work. I would first test whether participants can independently find tag-based filtering in the revised menu and discover the chatbot’s coverage-checking function, recording where they look and whether they need prompting.</p></div></div>
+      <div class="closing"><p>A familiar experience.<br> A more considered journey.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
+    </div></section>
+  </main>
+  <footer class="wrap"><p><strong>Choong Zixuan · U2320670C</strong><br> DV2008 Interface Design · Individual portfolio</p><p>Based on a group project. The research and overall prototype were produced by the team;<br> individual contributions are identified throughout. An independent student concept. Not affiliated with Apple.</p></footer>
+</body>
+</html>
